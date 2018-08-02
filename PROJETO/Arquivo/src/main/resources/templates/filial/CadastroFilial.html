@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns="http://www.w3.org/1999/xhtml" 
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorate="~{layout/LayoutPadrao}">
+
+<head>
+	<title>Arquivos</title>
+</head>	
+<body>
+<section layout:fragment="conteudo">
+	<h1>Cadastro de Filial</h1>
+	<form>
+		<div id="tf-box" class="mdc-text-field mdc-text-field--box w-4">
+    		<input required="true" pattern=".{8,}" type="text" id="tf-box" class="mdc-text-field__input" aria-controls="name-validation-message">
+    		<label for="tf-box" class="mdc-text-field__label">Nome</label>
+  		</div>
+	</form>
+
+</section>
+</body>
+</html>
